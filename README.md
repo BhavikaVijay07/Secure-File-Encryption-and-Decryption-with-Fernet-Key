@@ -17,12 +17,6 @@ A simple yet effective Python-based tool to encrypt and decrypt files securely u
 
 Install dependencies:
 pip install cryptography
---------------------------------------------------------------------------------------
-crypto/
-├── generate_key.py         # Generate and save Fernet key
-├── encrypt_file.py         # Encrypt files
-├── decrypt_file.py         # Decrypt files
-├── fernet.key              # Encryption key (keep it safe!)
 ---------------------------------------------------------------------------------------
 Step 1. Generate Encryption Key
 Creates a fernet.key file used for both encryption and decryption.
